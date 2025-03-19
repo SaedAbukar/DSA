@@ -1,4 +1,5 @@
 def sorter(param):
     print(''.join(sorted(param)))
 
-sorter("wikipedia")
+user_input = input("")
+sorter(user_input)
