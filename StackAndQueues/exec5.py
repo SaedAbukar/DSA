@@ -6,7 +6,7 @@ def get_pairs(list):
         if i % 2 == 0:
             if odd._size > 0:
                 n = odd.dequeue()
-                pairs.append((n, i))
+                pairs.append((i, n))
             else:
                 even.enqueue(i)
         else:
