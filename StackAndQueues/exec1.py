@@ -52,7 +52,7 @@ class Stack:
             self._top = self._top.next
             self._size -= 1
             return current.data
-            
+    
     def __repr__(self):
         elements = []
         current = self._top
